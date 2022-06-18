@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.svg" />
+  <BigTitle msg="明镜" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BigTitle from "./components/BigTitle.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    BigTitle,
+  },
+};
 </script>
 
 <style>
