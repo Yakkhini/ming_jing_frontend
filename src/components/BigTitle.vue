@@ -1,5 +1,9 @@
 <template>
-  <div>{{ msg }}</div>
+  <div
+    class="font-serif hover:font-sans subpixel-antialiased font-medium hover:font-bold text-5xl tracking-widest text-slate-500 hover:text-indigo-900"
+  >
+    {{ msg }}
+  </div>
 </template>
 
 <script>
@@ -10,21 +14,3 @@ export default {
   },
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
